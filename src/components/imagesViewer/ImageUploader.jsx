@@ -125,7 +125,7 @@ export default function ImageUploader() {
             <h3>Storage Info</h3>
             You have used cloud storage of {storageUsed} MB out of 10MB.
             <br />
-            <label for="file">Used Storage:</label>
+            <label htmlFor="file">Used Storage:</label>
             <progress id="file" value={imagesPercent} max="100"></progress>
             {imagesPercent}%
             {storageUsagePerDay >= 25 && (
